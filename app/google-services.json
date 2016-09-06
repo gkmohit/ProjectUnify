@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "745727440723",
+    "firebase_url": "https://project-unify-4a528.firebaseio.com",
+    "project_id": "project-unify-4a528",
+    "storage_bucket": "project-unify-4a528.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745727440723:android:51c1d9bdf90c04cf",
+        "android_client_info": {
+          "package_name": "com.projectunify.www.projectunify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745727440723-vl4g5is46ftjsilim8p7h5bpuu0uaesj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLmdzyewn1lEDLtdrW3DMb5IkTwGulVLE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
