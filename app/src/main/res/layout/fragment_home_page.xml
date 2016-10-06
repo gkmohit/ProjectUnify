@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.projectunify.www.projectunify.View.HomePageActivity$PlaceholderFragment">
+    tools:context="com.projectunify.www.View.HomePageActivity">
 
     <TextView
         android:id="@+id/section_label"

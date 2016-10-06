@@ -1,4 +1,4 @@
-package com.projectunify.www.projectunify;
+package com.projectunify.www.View;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

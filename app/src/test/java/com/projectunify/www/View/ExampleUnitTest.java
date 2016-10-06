@@ -1,4 +1,4 @@
-package com.projectunify.www.projectunify;
+package com.projectunify.www.View;
 
 import org.junit.Test;
 

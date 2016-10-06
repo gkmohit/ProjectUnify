@@ -2,7 +2,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.projectunify.www.projectunify.View.HomePageActivity">
+    tools:context="com.projectunify.www.View.View.HomePageActivity">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
@@ -10,6 +10,7 @@
         app:showAsAction="never"/>
     <item
         android:id="@+id/action_signOut"
+        android:orderInCategory="200"
         android:title="@string/menu_sign_out"
         />
 </menu>

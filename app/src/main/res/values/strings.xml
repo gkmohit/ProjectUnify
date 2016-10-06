@@ -27,4 +27,13 @@
     <string name="title_activity_home_page">Project Unify</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Fragment Names-->
+    <string name="fragment_title_chat">Chat</string>
+    <string name="fragment_title_clubs_and_teams">Clubs and Team</string>
+    <string name="fragment_title_news_feed">News Feed</string>
+    <string name="fragment_title_profile">Profile</string>
 </resources>

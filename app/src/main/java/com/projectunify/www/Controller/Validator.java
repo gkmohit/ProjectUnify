@@ -1,4 +1,4 @@
-package com.projectunify.www.projectunify.Controller;
+package com.projectunify.www.Controller;
 
 /**
  * Created by AirUnknown on 16-08-05.
