@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_club_information"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.projectunify.www.View.ClubInformationActivity">
+
+    <LinearLayout
+        android:id="@+id/image_and_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <ImageView
+            android:id="@+id/club_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:maxHeight="@dimen/club_information_max_height"
+            android:maxWidth="@dimen/club_information_max_width"
+            android:src="@drawable/color_green"/>
+
+        <TextView
+            android:id="@+id/club_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/club_information_title_text_size"
+            tools:text="@string/placeholder_news_feed_club_name"
+            />
+    </LinearLayout>
+
+    <!--Office Location-->
+    <LinearLayout
+        android:id="@+id/office_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_and_name"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/club_information_office_location"
+            android:textSize="@dimen/club_information_title_text_size"
+            />
+
+        <TextView
+            android:id="@+id/location_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/club_information_text_size"
+            tools:text="303 Building name"/>
+    </LinearLayout>
+
+    <!--Office Hours-->
+    <LinearLayout
+        android:id="@+id/office_hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/office_location"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/club_information_hours"
+            android:textSize="@dimen/club_information_title_text_size"
+            />
+
+        <TextView
+            android:id="@+id/hours_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/club_information_text_size"
+            tools:text="9 AM to 6 PM"/>
+    </LinearLayout>
+
+    <!--Contact Info-->
+    <LinearLayout
+        android:id="@+id/contact_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/office_hours"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/club_information_contact_info"
+            android:textSize="@dimen/club_information_title_text_size"
+            />
+
+        <TextView
+            android:id="@+id/phone_number_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/club_information_text_size"
+            tools:text="+1 647 523 2592"/>
+
+        <TextView
+            android:id="@+id/email_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/club_information_text_size"
+            tools:text="email@domain.com"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

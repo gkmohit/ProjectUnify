@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/news_feed_club_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="@dimen/news_feed_club_image_dimen"
+            android:maxWidth="@dimen/news_feed_club_image_dimen"
+            android:padding="@dimen/news_feed_paddings"
+            tools:src="@drawable/common_ic_googleplayservices"/>
+
+        <TextView
+            android:id="@+id/news_feed_club_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/news_feed_club_name_text"
+            tools:text="@string/placeholder_news_feed_club_name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/news_feed_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/news_feed_paddings"
+            android:textSize="@dimen/news_feed_status_text"
+            tools:text="@string/placeholder_news_feed_club_text"/>
+    </LinearLayout>
+
+</LinearLayout>

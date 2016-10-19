@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.projectunify.www.View.MainActivity"
+            android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -20,16 +20,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.projectunify.www.View.LoginActivity"
-            android:parentActivityName="com.projectunify.www.View.MainActivity"
+            android:name=".LoginActivity"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="com.projectunify.www.View.SignUpActivity"
-            android:parentActivityName="com.projectunify.www.View.MainActivity"
+            android:name=".SignUpActivity"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="com.projectunify.www.View.HomePageActivity">
+        <activity
+            android:name=".HomePageActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".ClubInformationActivity"
+            android:parentActivityName=".HomePageActivity"
+            android:screenOrientation="portrait"
+            >
         </activity>
     </application>
 

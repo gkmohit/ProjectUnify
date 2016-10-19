@@ -8,6 +8,9 @@
     <string name="signed_out_toast">You have been signed out.</string>
     <string name="progress_bar_creating_account">Creating Account...</string>
     <string name="progress_bar_authenticating">Authenticating...</string>
+    <string name="club_information_office_location">Office Location</string>
+    <string name="club_information_hours">Hours</string>
+    <string name="club_information_contact_info">Contact information</string>
 
     <!--Dialog strings-->
     <string name="dialog_error_title">Seems like there was a problem</string>
@@ -36,4 +39,13 @@
     <string name="fragment_title_clubs_and_teams">Clubs and Team</string>
     <string name="fragment_title_news_feed">News Feed</string>
     <string name="fragment_title_profile">Profile</string>
+
+
+    <!--Placeholder texts-->
+    <string name="placeholder_news_feed_club_name">de Finibus Bonorum</string>
+    <string name="placeholder_news_feed_club_text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </string>
 </resources>
